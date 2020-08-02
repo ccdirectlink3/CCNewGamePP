@@ -1,7 +1,7 @@
 # CC New Game++
 
 
-[![go to the releases page](https://raw.githubusercontent.com/CCDirectLink/organization/master/assets/badges/releases@2x.png)](https://github.com/{{ username }}/{{ repository name }}/releases)
+[![go to the releases page](https://raw.githubusercontent.com/CCDirectLink/organization/master/assets/badges/releases@2x.png)](https://github.com/ccdirectlink3/CCNewGamePP/releases)
 
 
 A small collection of addons to CrossCode's NG+.
