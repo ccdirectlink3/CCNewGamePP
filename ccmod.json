@@ -1,0 +1,16 @@
+{
+    "id": "newgame-plusplus",
+    "title": {
+        "en_US": "New game++"
+    },
+    "version": "2.0.0",
+    "plugin": "plugin.js",
+    "homepage": "https://github.com/CCDirectLink/CCNewGamePP",
+    "description": {
+        "en_US": "A small collection of addons to CrossCode's NG+."
+    },
+    "dependencies": {
+        "crosscode": "^1.2.0",
+        "ccloader": "^3.x.x"
+    }
+}
