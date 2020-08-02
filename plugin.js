@@ -1,5 +1,3 @@
-/// <reference path="../../../ccloader/js/types/plugin.d.ts" />
-
 import { UiManager } from './uiManager.js';
 import { Jetpack } from './features/jetpack.js';
 import { Invincible } from './features/invincible.js';
@@ -13,9 +11,6 @@ import { Clone } from './features/clone.js';
 import { NoDeath } from './features/noDeath.js';
 import { NoGui } from './features/noGui.js';
 
-/**
- * @extends {ccloader.Plugin}
- */
 export default class NewGamePlusPlus {
 	constructor() {
 		super();
