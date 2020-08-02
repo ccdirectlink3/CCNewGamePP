@@ -16,7 +16,7 @@ import { NoGui } from './features/noGui.js';
 /**
  * @extends {ccloader.Plugin}
  */
-export default class NewGamePlusPlus extends Plugin {
+export default class NewGamePlusPlus {
 	constructor() {
 		super();
         
@@ -44,7 +44,7 @@ export default class NewGamePlusPlus extends Plugin {
 		this._callFeatures('prestart');
 	}
 
-	main() {
+	poststart() {
 		const cat = this.uiManager.addCategory('mods', 'Mods', 'MULTI');
 		cat.addEntry('jetpack', 'Jetpack', 'A jetpack that can be used with CTRL.', 2000);
 		cat.addEntry('invincible', 'Invincible', 'Attacks received do no damage at all.', 5000);
@@ -59,7 +59,7 @@ export default class NewGamePlusPlus extends Plugin {
 		cat.addEntry('no-gui', 'No GUI', 'Like nature intended it to be.', 100);
 		
 
-		this._callFeatures('main');
+		this._callFeatures('poststart');
 	}
     
 	/**
