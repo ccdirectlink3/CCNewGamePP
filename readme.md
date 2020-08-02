@@ -1,5 +1,9 @@
 # CC New Game++
 
+
+[![go to the releases page](https://raw.githubusercontent.com/CCDirectLink/organization/master/assets/badges/releases@2x.png)](https://github.com/{{ username }}/{{ repository name }}/releases)
+
+
 A small collection of addons to CrossCode's NG+.
 
 ## Features
@@ -21,8 +25,7 @@ A small collection of addons to CrossCode's NG+.
 
 <!-- | **No Cheat**         |  100 | An addition truly worthy of a righteous Spheoromancer. | -->
 
+
 ## Installation
 
-1. Install the newest version of [CCLoader](https://github.com/CCDirectLink/CCLoader) (>= 2.14.1 required).
-2. Download and extract [NG++](https://github.com/CCDirectLink/CCNewGamePP/archive/master.zip).
-3. Copy the folder that contains the `package.json` into the mods folder.
+See the [general mod installation guide](https://github.com/dmitmel/crosscode.info/blob/master/docs/mods/installing-mods.md).
