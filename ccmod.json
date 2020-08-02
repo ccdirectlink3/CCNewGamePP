@@ -10,7 +10,6 @@
         "en_US": "A small collection of addons to CrossCode's NG+."
     },
     "dependencies": {
-        "crosscode": "^1.2.0",
-        "ccloader": "^3.x.x"
+        "crosscode": "^1.3.0"
     }
 }

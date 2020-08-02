@@ -13,8 +13,6 @@ import { NoGui } from './features/noGui.js';
 
 export default class NewGamePlusPlus {
 	constructor() {
-		super();
-        
 		this.uiManager = new UiManager();
 		
 		this.features = [
