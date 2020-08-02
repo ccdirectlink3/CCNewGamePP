@@ -19,7 +19,7 @@ export class NoDeath {
 		});
 	}
 
-	main() {
+	poststart() {
 		const original = window.SHOW_SAVE_DIALOG;
 		window.SHOW_SAVE_DIALOG = (...args) => {
 			if (sc.newgame.get('no-death')) {

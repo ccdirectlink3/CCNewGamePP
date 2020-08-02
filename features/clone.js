@@ -11,7 +11,7 @@ export class Clone {
 		});
 	}
     
-	main() {
+	poststart() {
 		ig.Game.inject({
 			loadLevel: function(...args) {
 				const result = this.parent(...args);

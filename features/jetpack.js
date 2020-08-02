@@ -3,7 +3,7 @@ export class Jetpack {
         
 	}
     
-	main() {
+	poststart() {
 		ig.input.bind(17, 'jump');
 		ig.game.addons.preUpdate.push(this);
 	}
